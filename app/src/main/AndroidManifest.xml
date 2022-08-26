@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.objdetector">
+
+    <uses-sdk />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/loggo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/loggo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity
+            android:name=".VoiceCommand"
+            android:exported="false" />
+        <activity
+            android:name=".TalkBack"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ClassifierActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".CameraActivityCurn"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".CameraActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".StartActivity"
+            android:exported="true"></activity>
+        <activity
+            android:name=".ModelInstaler"
+            android:exported="true"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

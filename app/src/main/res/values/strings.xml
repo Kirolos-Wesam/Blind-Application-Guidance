@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">BAG</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+    <string name="toggle_turn_on">NN:On</string>
+    <string name="toggle_turn_off">NN:Off</string>
+    <string name="toggle">Use NNAPI</string>
+    <string name="tflite">tflite</string>
+    <string name="nnapi">NNAPI</string>
+    <string name="threads">Threads:</string>
+    <string name="model">Model:</string>
+    <string-array name="models">
+        <item>Quantized</item>
+        <item>Float</item>
+    </string-array>
+    <string name="device">Device:</string>
+    <string name="object_detection">Object Detection</string>
+    <string name="ocr">OCR</string>
+    <string name="currency_detector">Currency Detector</string>
+    <string name="welcome_to_bag_app">Welcome to BAG App</string>
+    <string name="swap_left_for_voice_command"><![CDATA[<- Swap Left For Voice Command]]></string>
+    <string name="swap_right_for_talk_back"><![CDATA[Swap Right For Talk Back ->]]></string>
+    <string-array name="devices">
+        <item>CPU</item>
+        <item>GPU</item>
+        <item>NNAPI</item>
+    </string-array>
+</resources>
